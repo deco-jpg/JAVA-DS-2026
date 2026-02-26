@@ -1,9 +1,12 @@
 package com.example.encapsulamento;
 
 public class Funcionario {
-    String nome;
-    String cargo;
-    double salario;
+    private String nome;
+    private String cargo;
+    private double salario;
+    
+    
+    
     public String getNome() {
         return nome;
     }
