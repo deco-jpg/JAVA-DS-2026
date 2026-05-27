@@ -1,0 +1,9 @@
+.header h2{
+    color: white;
+}
+
+.header{
+    top: 0;
+    background-color: gray;
+    position: sticky;
+}
