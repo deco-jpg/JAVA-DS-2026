@@ -1,0 +1,10 @@
+.pesquisa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lupa{
+  width: 25px;
+}

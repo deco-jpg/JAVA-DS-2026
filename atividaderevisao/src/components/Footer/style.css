@@ -1,0 +1,14 @@
+.footer {
+    margin-top: auto;
+    text-align: left;
+    background-color: rgb(32, 32, 32);
+    
+    
+}
+
+.footer p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
