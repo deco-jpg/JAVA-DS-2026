@@ -1,0 +1,50 @@
+.servicos {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.servicos h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #0f172a;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.servicos h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #2563eb;
+  margin: 15px auto 0;
+  border-radius: 10px;
+}
+
+.servicos p {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #475569;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .servicos {
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  .servicos h1 {
+    font-size: 2rem;
+  }
+
+  .servicos p {
+    padding: 25px;
+    font-size: 1rem;
+  }
+}
